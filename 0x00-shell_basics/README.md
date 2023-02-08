@@ -34,3 +34,5 @@ Command Line Scripts
 #### Back to the future
 * Changes directory to the previous directoy
 
+#### Lists
+* Lists multiple directories
