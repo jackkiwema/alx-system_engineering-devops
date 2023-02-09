@@ -34,7 +34,7 @@ Shell permissions
 	```
 #### John Doe
 * Script that sets the mode of the file `hello` to 
-	` -rwxr-x-wx 1 julien 23 Sep 20 14:25 hello`
+	`-rwxr-x-wx 1 julien 23 Sep 20 14:25 hello`
 
 #### Look in the mirror
 * Script that sets the mode of the file hello the same as olleh's mode
@@ -47,3 +47,15 @@ Shell permissions
 
 #### Change group
 * Script that changes the group owner to `school` for the file `hello`
+
+#### Owner and group
+* Script that changes the owner to `vincent` and group owner to `staff` for all files and directories in the working directory
+
+### Symbolic links
+* Script that changes the owner and the group owner of `_hello` to `vincent` and `staff`
+
+#### If only
+* Script that changes the owner of the file `hello` to `betty` only if it is owned by the user `guillaume`
+
+#### Star Wars
+* Script that play the StarWars IV episode in the terminal
